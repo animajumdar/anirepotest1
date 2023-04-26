@@ -13,5 +13,10 @@ pipeline {
       }
     }
 
+    stage('test python version') {
+      steps {
+        bat 'python --version'
+      }
+    }
   }
 }
