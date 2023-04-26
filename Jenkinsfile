@@ -14,7 +14,7 @@ pipeline {
     }
 
     stage('test python version') {
-      agent { label 'Built-In Node' }
+      agent { label 'execnode1' }
       steps {
         bat 'python --version'
       }
