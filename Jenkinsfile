@@ -17,7 +17,7 @@ pipeline {
       agent { label 'execnode1' }
       steps {
           bat """
-            cd C:\testrepo1\atlas-probe\test_suites\BASELINE
+            cd C:\\testrepo1\\atlas-probe\\test_suites\\BASELINE
             set PYTHONPATH=C:\testrepo1\atlas-probe\atheneum
             set https_proxy=http://web-proxy.in.hpecorp.net:8080
             set http_proxy=http://web-proxy.in.hpecorp.net:8080
